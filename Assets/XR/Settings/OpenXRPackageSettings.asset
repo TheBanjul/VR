@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7365b139f7aec43b23d26b7a48b5a6, type: 3}
   m_Name: MetaQuestTouchPlusControllerProfile Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.MetaQuestTouchPlusControllerProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestplus
@@ -35,8 +35,6 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.OpenXRSettings
   features:
-  - {fileID: 2712033279040751606}
-  - {fileID: 5782089833987778604}
   - {fileID: 2600339968207035362}
   - {fileID: 2556444513018241871}
   - {fileID: 7933230267303757403}
@@ -46,6 +44,7 @@ MonoBehaviour:
   - {fileID: -2239473051059571631}
   - {fileID: 5135962535237320885}
   - {fileID: -256421556884502666}
+  - {fileID: 2712033279040751606}
   - {fileID: 2498365783203552587}
   - {fileID: 3239273666318559042}
   - {fileID: -4495881764315859486}
@@ -56,9 +55,10 @@ MonoBehaviour:
   - {fileID: 9065758879017987463}
   - {fileID: 4813164051997484558}
   - {fileID: 1889720959234475640}
+  - {fileID: 5782089833987778604}
   customLoaderName: 
   m_renderMode: 1
-  m_latencyOptimization: 0
+  m_latencyOptimization: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
     m_List: 00000000
@@ -837,8 +837,6 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.OpenXRSettings
   features:
-  - {fileID: 6269918659941225263}
-  - {fileID: 6866731021237711443}
   - {fileID: -5886302358746712301}
   - {fileID: -1652168081727291358}
   - {fileID: 6742135612413921756}
@@ -848,6 +846,7 @@ MonoBehaviour:
   - {fileID: 1718257351466579233}
   - {fileID: -584659831216930334}
   - {fileID: 133372963014422248}
+  - {fileID: 6269918659941225263}
   - {fileID: -9219015513996654695}
   - {fileID: 492749700347276902}
   - {fileID: -8553611800317184434}
@@ -858,6 +857,7 @@ MonoBehaviour:
   - {fileID: -1474975030661132519}
   - {fileID: 8343316562523055634}
   - {fileID: -6797102588527733652}
+  - {fileID: 6866731021237711443}
   customLoaderName: 
   m_renderMode: 1
   m_latencyOptimization: 0
